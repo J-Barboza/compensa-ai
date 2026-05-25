@@ -1,0 +1,86 @@
+# Node modules
+node_modules/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Metro
+.expo/
+.expo-shared/
+
+# Watchman
+.watchmanconfig
+
+# Babel
+babel.config.js
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor configs
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+
+# Android
+android/.gradle/
+android/.idea/
+android/app/build/
+android/build/
+android/local.properties
+android/.cxx/
+android/app/.cxx/
+*.iml
+
+# iOS
+ios/Pods/
+ios/Podfile.lock
+ios/DerivedData/
+ios/build/
+*.pbxuser
+!default.pbxuser
+*.mode1v3
+*.mode2v3
+*.perspectivev3
+xcuserdata/
+*.xcuserstate
+
+# Xcode
+*.xcworkspace
+*.xcodeproj/*
+!*.xcodeproj/project.pbxproj
+!*.xcodeproj/xcshareddata/
+!*.xcodeproj/xcshareddata/WorkspaceSettings.xcsettings
+
+# React Native specific
+.env
+.env.*
+coverage/
+lib-cov/
+jest-*.json
+*.tsbuildinfo
+
+# Fastlane
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots
+fastlane/test_output
+
+# Bundles
+*.jsbundle
+*.map
+
+# NPM cache
+.npm/
+
+# Misc
+*.swp
+AGENTS.md
+
+# Local Gradle cache used by scripts
+.gradle-cache/
